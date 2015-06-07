@@ -1,6 +1,12 @@
 body{ /*Sobre escribe el color del background de las tags body*/
 	background : #CBDFEA;
 }
+.lead{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	color: #B40431;	
+	text-transform: uppercase;
+}
 .logsup{/*Form Style 1*/
 	background-color: #B40431;
 	/*background: red;*/
@@ -23,11 +29,30 @@ body{ /*Sobre escribe el color del background de las tags body*/
 	margin: 5px;
 	border-bottom-right-radius: 7px;
 	border-bottom-left-radius: 7px;
-	line-height: 12px;
 }
-.lead{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 32px;
-	color: #B40431;	
-	text-transform: uppercase;
+.logset{/*Esto es para los field text y el botón de login*/
+	text-align: left;
+	margin: 0 auto;
+	line-height: 3px;
+	font-size: 15px;
+	color: black;
+	position: relative;
+	display: inline-table; 
+}
+input{
+	width: 245px;
+	height: 30px;
+	border-color: #B40431;
+	color: black;
+	font-family: arial;
+	font-size: 20px;
+}
+button{
+	width: 100px;
+	height: 40px;
+	line-height: 23px;
+	background-color: #B40431; 
+	border-color: #B40431;
+	color: white;
+	font-size: 16px;
 }
