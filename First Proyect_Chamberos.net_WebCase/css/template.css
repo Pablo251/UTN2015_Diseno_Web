@@ -1,0 +1,23 @@
+body{ /*Sobre escribe el color del background de las tags body*/
+	background : #CBDFEA;
+}
+
+form{/*Form Style 1*/
+	background-color: #B40431;
+	/*background: red;*/
+	/*position: absolute;*/
+	width: 400px;
+	height: 300px;	
+	color: white;
+	font-family: Arial;
+	font-size: 22px;
+	text-align: center;
+	border: 11px;
+	border-radius: 0;
+}
+.lead{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	color: #B40431;	
+	text-transform: uppercase;
+}
