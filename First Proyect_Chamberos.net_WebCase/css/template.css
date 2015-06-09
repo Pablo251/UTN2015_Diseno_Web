@@ -39,6 +39,9 @@ body{ /*Sobre escribe el color del background de las tags body*/
 	position: relative;
 	display: inline-table; 
 }
+.block{
+
+}
 input{
 	width: 245px;
 	height: 30px;
@@ -56,3 +59,4 @@ button{
 	color: white;
 	font-size: 16px;
 }
+
