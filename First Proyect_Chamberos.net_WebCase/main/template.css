@@ -64,7 +64,7 @@ body{ /*Sobre escribe el color del background de las tags body*/
 /*.body{ Sobre escribe el color del background de las tags body
 	background : #CBDFEA;
 	margin: 0px;
-}*/
+	}*/
 .headpaint{/*Agrega la barra superior color morada y con el borde pintado*/
 	background-color: #B40431; 
 	height: 75px;
@@ -73,12 +73,50 @@ body{ /*Sobre escribe el color del background de las tags body*/
 	padding: 4px;
 }
 .navmenu{
-	/*background-color: #B40431; */
+	background-color: blue; 
+	display: inline-block;
 	padding-top: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 5px;
 	position: relative;
-	top: -60px;
+	top: -75px;
+	left: 10%;
+	padding: 0px;
 }
+.navmenu li{
+	display: inline-block;
+	list-style: none;
+	padding-right: 50px;
+}
+.navmenu button{
+	width: 160px;
+	height: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	background-color: #B40431; 
+	border-style: dashed;
+	border-width: medium;
+	border-color: black;
+	color: white;	
+	font-size: 18px;
+	text-align: center;
+}
+.navmenu button:hover {
+	background-color: white;
+	color: #B40431
+}
+
+.userlog{
+	background-color: gray;
+	display: inline-block;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	position: absolute;
+	top: -75px;
+}
+
+
 
