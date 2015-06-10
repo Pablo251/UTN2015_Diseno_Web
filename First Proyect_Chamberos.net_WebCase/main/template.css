@@ -2,6 +2,7 @@
 /*Login Page */
 body{ /*Sobre escribe el color del background de las tags body*/
 	background : #CBDFEA;
+	margin: 0px;
 }
 .lead{
 	font-family: Arial, Helvetica, sans-serif;
@@ -41,7 +42,8 @@ body{ /*Sobre escribe el color del background de las tags body*/
 	position: relative;
 	display: inline-table; 
 }
-input{
+
+.logset input{
 	width: 245px;
 	height: 30px;
 	border-color: #B40431;
@@ -49,7 +51,7 @@ input{
 	font-family: arial;
 	font-size: 20px;
 }
-button{
+.logset button{
 	width: 100px;
 	height: 40px;
 	line-height: 23px;
@@ -59,9 +61,24 @@ button{
 	font-size: 16px;
 }
 /*Main Page*/
-.headpaint{
+/*.body{ Sobre escribe el color del background de las tags body
+	background : #CBDFEA;
+	margin: 0px;
+}*/
+.headpaint{/*Agrega la barra superior color morada y con el borde pintado*/
 	background-color: #B40431; 
-	height: 100px;
-	width: 100px
+	height: 75px;
+	width:  auto;
+	border: 1px solid #040000;
+	padding: 4px;
+}
+.navmenu{
+	/*background-color: #B40431; */
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	position: relative;
+	top: -60px;
 }
 
