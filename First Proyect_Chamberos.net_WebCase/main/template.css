@@ -65,87 +65,127 @@ body{ /*Sobre escribe el color del background de las tags body*/
 	background : #CBDFEA;
 	margin: 0px;
 	}*/
-.headpaint{/*Agrega la barra superior color morada y con el borde pintado*/
-	background-color: #B40431; 
-	height: 75px;
-	width:  auto;
-	border: 1px solid #040000;
-	padding: 4px;
-}
-.navmenu{
-	background-color: blue; 
-	display: inline-block;
-	padding-top: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 5px;
-	position: relative;
-	top: -75px;
-	left: 10%;
-	padding: 0px;
-	float: left;
-}
-.navmenu li{
-	display: inline-block;
-	list-style: none;
-	padding-right: 50px;
-}
-.navmenu button{
-	width: 160px;
-	height: 40px;
-	font-family: Arial, Helvetica, sans-serif;
-	text-transform: uppercase;
-	background-color: #B40431; 
-	border-style: dashed;
-	border-width: medium;
-	border-color: black;
-	color: white;	
-	font-size: 18px;
-	text-align: center;
-}
-.navmenu button:hover {
-	background-color: white;
-	color: #B40431
-}
+	.headpaint{/*Agrega la barra superior color morada y con el borde pintado*/
+		background-color: #B40431; 
+		height: 75px;
+		width:  auto;
+		border: 1px solid #040000;
+		padding: 4px;
+	}
+	.navmenu{
+		background-color: blue; 
+		display: inline-block;
+		padding-top: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 5px;
+		position: relative;
+		top: 10%;
+		left: 8%;
+		float: left;
+	}
+	.navmenu li{
+		display: inline-block;
+		list-style: none;
+		padding-right: 50px;
+	}
+	.navmenu button{
+		width: 160px;
+		height: 40px;
+		font-family: Arial, Helvetica, sans-serif;
+		text-transform: uppercase;
+		background-color: #B40431; 
+		border-style: dashed;
+		border-width: medium;
+		border-color: black;
+		color: white;	
+		font-size: 18px;
+		text-align: center;
+	}
+	.navmenu a{
+		padding: 8px 52px;
+		font-family: Arial, Helvetica, sans-serif;
+		text-transform: uppercase;
+		background-color: #B40431; 
+		border-style: dashed;
+		border-width: medium;
+		border-color: black;
+		color: white;	
+		font-size: 18px;
+		text-decoration: none;
+		text-align: center;
+	}
+	.navmenu a:hover {
+		background-color: white;
+		color: #B40431
+	}
 
-.userlog {
-	background-color: gray;
-	display: inline-block;
-	padding: 0px;
+	.userlog {
+		background-color: gray;
+		display: inline-block;
+		padding: 0px;
 /*	padding-top: 0px;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 0px;*/
 /*	height: 65px;
-	width: 40px;*/
-	position: relative;
-	top: -50px;
-	float: right;
-	right: 15px;
-	vertical-align: middle;
+width: 40px;*/
+position: relative;
+top: -50px;
+float: right;
+right: 15px;
+vertical-align: middle;
 }
 /*.userlog li{
 	display: inline-block;
 	list-style: none;
 	padding-right: 50px;
-}*/
-.userlog label{
-	line-height: 4px;
-	text-align: right;
-	display: inline-block;
-	vertical-align: middle;
-	font-family: Arial, Helvetica, sans-serif; 
-	font-size: 17px;
-	color: white;
-}
+	}*/
+	.userlog label{
+		line-height: 4px;
+		text-align: right;
+		display: inline-block;
+		vertical-align: middle;
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 17px;
+		color: white;
+	}
 
-.userlog div{
-	background-color: green;
-	display: inline-block;
-	float: right;
-	position: relative;
-	top: -21px;
-}
+	.userlog div{
+		background-color: green;
+		display: inline-block;
+		float: right;
+		position: relative;
+		top: -21px;
+	}
+
+	.userinfo{
+		display: inline-block;
+		float: right;
+		background-color: gray;
+		padding: 15px 15px;
+		position: relative;
+		top: 10%;
+		right: 2%;
+		text-align: right;
+	}
+
+	.userinfo label, a{
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 17px;
+		text-decoration: none;
+		color: white;
+	}
+	.userpic{
+		display: inline-block;
+		float: right;
+		background-color: green;
+		padding: 0px 0px;
+		position: relative;
+		top: 0%;
+		right: 1%;
+		text-align: right;
+	}
 
 
 
