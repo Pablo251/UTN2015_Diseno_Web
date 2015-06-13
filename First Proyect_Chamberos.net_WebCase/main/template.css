@@ -4,6 +4,12 @@ body{ /*Sobre escribe el color del background de las tags body*/
 	background : #CBDFEA;
 	margin: 0px;
 }
+.foot{
+	clear: both;
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	color: black;
+}
 .lead{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 32px;
@@ -157,6 +163,7 @@ vertical-align: middle;
 		float: right;
 		position: relative;
 		top: -21px;
+		font
 	}
 
 	.userinfo{
@@ -186,6 +193,31 @@ vertical-align: middle;
 		right: 1%;
 		text-align: right;
 	}
+
+	.frame{
+		clear: both;
+	}
+	.frame h2{
+		display: block;
+		margin: 50px;
+		padding: 20px;
+	}
+	.frame h3 {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 16px;
+		text-align: center;
+	}
+	.frame a{
+		text-decoration: none;
+		color: black;
+	}
+	.panelselection{
+		display: inline-block;
+		float: left;
+		margin: 75px 89px;
+		padding: 5px 10px;
+	}
+
 
 
 
