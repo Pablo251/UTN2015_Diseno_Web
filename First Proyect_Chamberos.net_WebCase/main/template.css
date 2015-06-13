@@ -125,7 +125,6 @@ body{ /*Sobre escribe el color del background de las tags body*/
 		background-color: white;
 		color: #B40431
 	}
-
 	.userlog {
 		background-color: gray;
 		display: inline-block;
@@ -136,11 +135,11 @@ body{ /*Sobre escribe el color del background de las tags body*/
 	padding-bottom: 0px;*/
 /*	height: 65px;
 width: 40px;*/
-position: relative;
-top: -50px;
-float: right;
-right: 15px;
-vertical-align: middle;
+	position: relative;
+	top: -50px;
+	float: right;
+	right: 15px;
+	vertical-align: middle;
 }
 /*.userlog li{
 	display: inline-block;
@@ -217,6 +216,7 @@ vertical-align: middle;
 		margin: 75px 89px;
 		padding: 5px 10px;
 	}
+
 
 
 
