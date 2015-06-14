@@ -67,155 +67,170 @@ body{ /*Sobre escribe el color del background de las tags body*/
 	font-size: 16px;
 }
 /*Main Page*/
-/*.body{ Sobre escribe el color del background de las tags body
-	background : #CBDFEA;
-	margin: 0px;
-	}*/
-	.headpaint{/*Agrega la barra superior color morada y con el borde pintado*/
-		background-color: #B40431; 
-		height: 75px;
-		width:  auto;
-		border: 1px solid #040000;
-		padding: 4px;
-	}
-	.navmenu{
-		background-color: blue; 
-		display: inline-block;
-		padding-top: 5px;
-		padding-left: 10px;
-		padding-right: 10px;
-		padding-bottom: 5px;
-		position: relative;
-		top: 10%;
-		left: 8%;
-		float: left;
-	}
-	.navmenu li{
-		display: inline-block;
-		list-style: none;
-		padding-right: 50px;
-	}
-	.navmenu button{
-		width: 160px;
-		height: 40px;
-		font-family: Arial, Helvetica, sans-serif;
-		text-transform: uppercase;
-		background-color: #B40431; 
-		border-style: dashed;
-		border-width: medium;
-		border-color: black;
-		color: white;	
-		font-size: 18px;
-		text-align: center;
-	}
-	.navmenu a{
-		padding: 8px 52px;
-		font-family: Arial, Helvetica, sans-serif;
-		text-transform: uppercase;
-		background-color: #B40431; 
-		border-style: dashed;
-		border-width: medium;
-		border-color: black;
-		color: white;	
-		font-size: 18px;
-		text-decoration: none;
-		text-align: center;
-	}
-	.navmenu a:hover {
-		background-color: white;
-		color: #B40431
-	}
-	.userlog {
-		background-color: gray;
-		display: inline-block;
-		padding: 0px;
-/*	padding-top: 0px;
+.headpaint{/*Agrega la barra superior color morada y con el borde pintado*/
+	background-color: #B40431; 
+	height: 75px;
+	width:  auto;
+	border: 1px solid #040000;
+	padding: 4px;
+}
+.navmenu{
+	/*background-color: blue; */
+	display: inline-block;
+	padding-top: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
-	padding-bottom: 0px;*/
-/*	height: 65px;
-width: 40px;*/
+	padding-bottom: 5px;
 	position: relative;
-	top: -50px;
-	float: right;
-	right: 15px;
-	vertical-align: middle;
+	top: 10%;
+	left: 8%;
+	float: left;
 }
-/*.userlog li{
+.navmenu li{
 	display: inline-block;
 	list-style: none;
 	padding-right: 50px;
-	}*/
-	.userlog label{
-		line-height: 4px;
-		text-align: right;
-		display: inline-block;
-		vertical-align: middle;
-		font-family: Arial, Helvetica, sans-serif; 
-		font-size: 17px;
-		color: white;
-	}
+}
+.navmenu button{
+	width: 160px;
+	height: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	background-color: #B40431; 
+	border-style: dashed;
+	border-width: medium;
+	border-color: black;
+	color: white;	
+	font-size: 18px;
+	text-align: center;
+}
+.navmenu a{
+	padding: 8px 52px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	background-color: #B40431; 
+	border-style: dashed;
+	border-width: medium;
+	border-color: black;
+	color: white;	
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+}
+.navmenu a:hover {
+	background-color: white;
+	color: #B40431;
+}
+#selected{
+	padding: 8px 52px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	background-color: white; 
+	border-style: dashed;
+	border-width: medium;
+	border-color: black;
+	color: #B40431;	
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;		
+}
+.userinfo{
+	display: inline-block;
+	float: right;
+	/*		background-color: gray;*/
+	padding: 16px 5px;
+	position: relative;
+	top: 10%;
+	right: 2%;
+	text-align: right;	
+	margin: 0px 0px;			
+}
 
-	.userlog div{
-		background-color: green;
-		display: inline-block;
-		float: right;
-		position: relative;
-		top: -21px;
-		font
-	}
+.userinfo label, a{
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 22px;
+	text-decoration: none;
+	color: white;
+}
+.userpic{
+	display: inline-block;
+	float: right;
+	/*background-color: green;*/
+	padding: 0px 0px;
+	position: relative;
+	top: 0px;
+	right: 1%;
+	text-align: right;
+	margin: 0px 0px;
+}
+.userpic li ,.userpic ul{
+	padding: 0px 0px;
+	margin: 0px 0px;
+	list-style-type: none;
+	display: inline-block;
+}
+.frame{
+	clear: both;
+}
+.frame h2{
+	display: block;
+	margin: 50px;
+	padding: 20px;
+}
+.frame h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-align: center;
+}	
+.frame a{
+	text-decoration: none;
+	color: black;
+}
+.panelselection{
+	display: inline-block;
+	float: left;
+	margin: 75px 89px;
+	padding: 5px 10px;
+}
+.subpanel1{	
+	display: inline-block;
+	float: left;
+	margin: 10px 10px;
+	padding: 5px 10px;
+}
+.subpanel1 h3{
+	font-size: 33px;
+	margin: 33px 2px;
+}
+.subpanel2{
+	position: relative;
+	display: inline-block;
+	float: right;
+	margin: 10px;
+	margin-left: 100px;
+	padding: 5px 5px;
+}
+.subpanel2 a{
+	border-radius: 18px;
+	position: relative;
+	float: right;
+	background-color: #1C1C1C;
+	color: #81F7BE;
+	font-size: 33px;
+	margin: 11px;
+	padding: 22px 22px;
+}
+.subpanel2 a:hover{
+	background-color: #1C1C1C;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #FAAC58;
+	color: #FAAC58;
+}
 
-	.userinfo{
-		display: inline-block;
-		float: right;
-		background-color: gray;
-		padding: 15px 15px;
-		position: relative;
-		top: 10%;
-		right: 2%;
-		text-align: right;
-	}
 
-	.userinfo label, a{
-		font-family: Arial, Helvetica, sans-serif; 
-		font-size: 17px;
-		text-decoration: none;
-		color: white;
-	}
-	.userpic{
-		display: inline-block;
-		float: right;
-		background-color: green;
-		padding: 0px 0px;
-		position: relative;
-		top: 0%;
-		right: 1%;
-		text-align: right;
-	}
 
-	.frame{
-		clear: both;
-	}
-	.frame h2{
-		display: block;
-		margin: 50px;
-		padding: 20px;
-	}
-	.frame h3 {
-		font-family: Arial, Helvetica, sans-serif;
-		font-size: 16px;
-		text-align: center;
-	}
-	.frame a{
-		text-decoration: none;
-		color: black;
-	}
-	.panelselection{
-		display: inline-block;
-		float: left;
-		margin: 75px 89px;
-		padding: 5px 10px;
-	}
+
 
 
 
