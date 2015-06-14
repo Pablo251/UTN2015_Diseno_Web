@@ -228,26 +228,45 @@ body{ /*Sobre escribe el color del background de las tags body*/
 	color: #FAAC58;
 }
 .tablepanel{
-	margin: 200px 200px;
+	margin: 160px 30px;
+	padding: 10px 0px;
+}
+.tablepanel li, .tablepanel ul{
+	display: inline-table;
+	list-style: none;
+	float: right;
+	margin: 0px;
 }
 .tablepanel table{
 	width: 100%;
 	font-family: 'Arial';
 	font-size: 22px;
-	border-collapse: separate;
+	border-collapse:collapse;
+	height: 12px;
+	border: 1px solid #eee;
 }
-.tablepanel li{
-	display: inline-table;
-	list-style: none;
-	float: right;
-}
-.tablepanel thead tr{
+.tablepanel thead{
 	text-align: center;
 	background-color: yellow;
 	color: white;
 }
+.tablepanel th, .tablepanel td{
+	  border: 1px solid #eee;
+	  margin: 10px;
+}
 .tablepanel tbody{
-	background-color: white;
+	background-color: white; 
+}
+td:nth-child(1) {
+  width:30%; 
+  text-align: center;
+}
+td:nth-child(2) {
+  width:50%; 
+  text-align: left;
+}
+td:nth-child(3) {
+  width:10%; 
 }
 
 
