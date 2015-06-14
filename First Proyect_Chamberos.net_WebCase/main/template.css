@@ -227,8 +227,28 @@ body{ /*Sobre escribe el color del background de las tags body*/
 	border-color: #FAAC58;
 	color: #FAAC58;
 }
-
-
+.tablepanel{
+	margin: 200px 200px;
+}
+.tablepanel table{
+	width: 100%;
+	font-family: 'Arial';
+	font-size: 22px;
+	border-collapse: separate;
+}
+.tablepanel li{
+	display: inline-table;
+	list-style: none;
+	float: right;
+}
+.tablepanel thead tr{
+	text-align: center;
+	background-color: yellow;
+	color: white;
+}
+.tablepanel tbody{
+	background-color: white;
+}
 
 
 
