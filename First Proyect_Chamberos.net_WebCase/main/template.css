@@ -232,10 +232,11 @@ body{ /*Sobre escribe el color del background de las tags body*/
 	padding: 10px 0px;
 }
 .tablepanel li, .tablepanel ul{
-	display: inline-table;
+	display: inline-block;
 	list-style: none;
 	float: right;
 	margin: 0px;
+	padding: 0px 5px;
 }
 .tablepanel table{
 	width: 100%;
@@ -243,16 +244,15 @@ body{ /*Sobre escribe el color del background de las tags body*/
 	font-size: 22px;
 	border-collapse:collapse;
 	height: 12px;
-	border: 1px solid #eee;
 }
 .tablepanel thead{
 	text-align: center;
-	background-color: yellow;
+	background-color: #0B3861;
 	color: white;
 }
 .tablepanel th, .tablepanel td{
-	  border: 1px solid #eee;
-	  margin: 10px;
+	  border: 1px solid white;
+	  padding: 15px;
 }
 .tablepanel tbody{
 	background-color: white; 
