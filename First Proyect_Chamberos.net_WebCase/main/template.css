@@ -103,6 +103,7 @@ body{ /*Sobre escribe el color del background de las tags body*/
 	position: relative;
 	top: 10%;
 	float: left;
+	/*left: 12%;*//*Suituído*/
 }
 .navmenu li{
 	display: inline-block;
@@ -247,6 +248,7 @@ body{ /*Sobre escribe el color del background de las tags body*/
 }
 .tablepanel{
 	margin: 160px 30px;
+	margin-bottom: 200px;
 	padding: 10px 0px;
 }
 .tablepanel li, .tablepanel ul{
