@@ -2,6 +2,13 @@
 /*Login Page */
 body{ /*Sobre escribe el color del background de las tags body*/
 	background : #CBDFEA;
+	margin: 0px;
+}
+.foot{
+	clear: both;
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	color: black;
 }
 .lead{
 	font-family: Arial, Helvetica, sans-serif;
@@ -41,7 +48,8 @@ body{ /*Sobre escribe el color del background de las tags body*/
 	position: relative;
 	display: inline-table; 
 }
-input{
+
+.logset input{
 	width: 245px;
 	height: 30px;
 	border-color: #B40431;
@@ -49,7 +57,7 @@ input{
 	font-family: arial;
 	font-size: 20px;
 }
-button{
+.logset button{
 	width: 100px;
 	height: 40px;
 	line-height: 23px;
@@ -59,9 +67,232 @@ button{
 	font-size: 16px;
 }
 /*Main Page*/
-.headpaint{
+.headpaint{/*Agrega la barra superior color morada y con el borde pintado*/
 	background-color: #B40431; 
-	height: 100px;
-	width: 100px
+	height: 75px;
+	width:  auto;
+	border: 1px solid #040000;
+	padding: 4px;
 }
+/*Add... Home Menu bar*/
+.home{
+	margin: 0px 0px;	
+	display: inline-block;
+	float: left;
+}
+.home ul , li{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+.home a{
+	color: black;
+	font-size: 18px;
+}
+.home a:hover{
+	color: white;
+}
+.navmenu{
+	/*background-color: blue; */
+	display: inline-block;
+	padding-top: 5px;
+	padding-left: 2px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	position: relative;
+	top: 10%;
+	float: left;
+	/*left: 12%;*//*Suituído*/
+}
+.navmenu li{
+	display: inline-block;
+	list-style: none;
+	padding-right: 50px;
+}
+.navmenu button{
+	width: 160px;
+	height: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	background-color: #B40431; 
+	border-style: dashed;
+	border-width: medium;
+	border-color: black;
+	color: white;	
+	font-size: 18px;
+	text-align: center;
+}
+.navmenu a{
+	padding: 8px 52px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	background-color: #B40431; 
+	border-style: dashed;
+	border-width: medium;
+	border-color: black;
+	color: white;	
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+}
+.navmenu a:hover {
+	background-color: white;
+	color: #B40431;
+}
+#selected{
+	padding: 8px 52px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	background-color: white; 
+	border-style: dashed;
+	border-width: medium;
+	border-color: black;
+	color: #B40431;	
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;		
+}
+.userinfo{
+	display: inline-block;
+	float: right;
+	/*		background-color: gray;*/
+	padding: 16px 5px;
+	position: relative;
+	top: 10%;
+	right: 2%;
+	text-align: right;	
+	margin: 0px 0px;			
+}
+
+.userinfo label, a{
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 22px;
+	text-decoration: none;
+	color: white;
+}
+.userpic{
+	display: inline-block;
+	float: right;
+	/*background-color: green;*/
+	padding: 0px 0px;
+	position: relative;
+	top: 0px;
+	right: 1%;
+	text-align: right;
+	margin: 0px 0px;
+}
+.userpic li ,.userpic ul{
+	padding: 0px 0px;
+	margin: 0px 0px;
+	list-style-type: none;
+	display: inline-block;
+}
+.frame{
+	clear: both;
+}
+.frame h2{
+	display: block;
+	margin: 50px;
+	padding: 20px;
+}
+.frame h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-align: center;
+}	
+.frame a{
+	text-decoration: none;
+	color: black;
+}
+.panelselection{
+	display: inline-block;
+	float: left;
+	margin: 75px 89px;
+	padding: 5px 10px;
+}
+.subpanel1{	
+	display: inline-block;
+	float: left;
+	margin: 10px 10px;
+	padding: 5px 10px;
+}
+.subpanel1 h3{
+	font-size: 33px;
+	margin: 33px 2px;
+}
+.subpanel2{
+	position: relative;
+	display: inline-block;
+	float: right;
+	margin: 10px;
+	margin-left: 100px;
+	padding: 5px 5px;
+}
+.subpanel2 a{
+	border-radius: 18px;
+	position: relative;
+	float: right;
+	background-color: #1C1C1C;
+	color: #81F7BE;
+	font-size: 33px;
+	margin: 11px;
+	padding: 22px 22px;
+}
+.subpanel2 a:hover{
+	background-color: #1C1C1C;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #FAAC58;
+	color: #FAAC58;
+}
+.tablepanel{
+	margin: 160px 30px;
+	margin-bottom: 200px;
+	padding: 10px 0px;
+}
+.tablepanel li, .tablepanel ul{
+	display: inline-block;
+	list-style: none;
+	float: right;
+	margin: 0px;
+	padding: 0px 5px;
+}
+.tablepanel table{
+	width: 100%;
+	font-family: 'Arial';
+	font-size: 22px;
+	border-collapse:collapse;
+	height: 12px;
+}
+.tablepanel thead{
+	text-align: center;
+	background-color: #0B3861;
+	color: white;
+}
+.tablepanel th, .tablepanel td{
+	  border: 1px solid white;
+	  padding: 15px;
+}
+.tablepanel tbody{
+	background-color: white; 
+}
+td:nth-child(1) {
+  width:30%; 
+  text-align: center;
+}
+td:nth-child(2) {
+  width:50%; 
+  text-align: left;
+}
+td:nth-child(3) {
+  width:10%; 
+}
+
+
+
+
+
+
+
 
