@@ -80,16 +80,28 @@ body{ /*Sobre escribe el color del background de las tags body*/
 	display: inline-block;
 	float: left;
 }
+.home ul , li{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+.home a{
+	color: black;
+	font-size: 18px;
+}
+.home a:hover{
+	color: white;
+}
 .navmenu{
 	/*background-color: blue; */
 	display: inline-block;
 	padding-top: 5px;
-	padding-left: 10px;
+	padding-left: 2px;
 	padding-right: 10px;
 	padding-bottom: 5px;
 	position: relative;
 	top: 10%;
-	left: 2%;
 	float: left;
 }
 .navmenu li{
