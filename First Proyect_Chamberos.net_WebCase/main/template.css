@@ -74,6 +74,12 @@ body{ /*Sobre escribe el color del background de las tags body*/
 	border: 1px solid #040000;
 	padding: 4px;
 }
+/*Add... Home Menu bar*/
+.home{
+	margin: 0px 0px;	
+	display: inline-block;
+	float: left;
+}
 .navmenu{
 	/*background-color: blue; */
 	display: inline-block;
@@ -83,7 +89,7 @@ body{ /*Sobre escribe el color del background de las tags body*/
 	padding-bottom: 5px;
 	position: relative;
 	top: 10%;
-	left: 8%;
+	left: 2%;
 	float: left;
 }
 .navmenu li{
