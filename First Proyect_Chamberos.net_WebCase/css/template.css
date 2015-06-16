@@ -296,7 +296,7 @@ td:nth-child(3) {
 	height: 30px;
 	font-size: 20px;
 }
-.fillform ul, li{
+.fillform ul,.fillform li{
 	padding: 0px;	
 	margin: 5px;
 }
@@ -315,6 +315,23 @@ td:nth-child(3) {
 	border: 1px solid #0489B1;
 	border-radius: 12px;
 }
+.confirmation{
+	margin: 120px;
+}
+.confirmation ul, .confirmation li{
+	margin: 0px;
+	font: 33px Arial;
+	text-align: center;
+	display: block;
+	padding: 40px;
+}
+.confirmation a{
+	background-color: #BF2517;
+	padding: 20px;
+	border-radius: 12px;
+	color: white;
+}
+
 
 
 
