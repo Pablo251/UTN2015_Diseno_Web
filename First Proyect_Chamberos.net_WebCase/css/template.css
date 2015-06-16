@@ -268,22 +268,22 @@ body{ /*Sobre escribe el color del background de las tags body*/
 	color: white;
 }
 .tablepanel th, .tablepanel td{
-	  border: 1px solid white;
-	  padding: 15px;
+	border: 1px solid white;
+	padding: 15px;
 }
 .tablepanel tbody{
 	background-color: white; 
 }
 td:nth-child(1) {
-  width:50%; 
-  text-align: center;
+	width:50%; 
+	text-align: center;
 }
 td:nth-child(2) {
-  width:30%; 
-  text-align: left;
+	width:30%; 
+	text-align: left;
 }
 td:nth-child(3) {
-  width:20%; 
+	width:20%; 
 }
 .fillform{
 	margin: 120px;
@@ -315,13 +315,13 @@ td:nth-child(3) {
 	border: 1px solid #0489B1;
 	border-radius: 12px;
 }
-.confirmation{
+.confirmation, .ask{
 	margin: 120px;
-}
-.confirmation ul, .confirmation li{
-	margin: 0px;
 	font: 33px Arial;
 	text-align: center;
+}
+.confirmation ul, .confirmation li, .ask ul, .ask li{
+	margin: 0px;
 	display: block;
 	padding: 40px;
 }
@@ -331,7 +331,15 @@ td:nth-child(3) {
 	border-radius: 12px;
 	color: white;
 }
-
+.ask li:nth-child(2), .ask li:nth-child(3){
+	display: inline-block;
+	padding: 12px 12px;
+	position: relative;
+}
+/*.ask li:nth-child(3){
+	float: left;
+	padding: 12px;
+}*/
 
 
 
