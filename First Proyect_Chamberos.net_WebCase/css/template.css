@@ -241,9 +241,6 @@ body{ /*Sobre escribe el color del background de las tags body*/
 }
 .subpanel2 a:hover{
 	background-color: #1C1C1C;
-	border-width: 1px;
-	border-style: solid;
-	border-color: #FAAC58;
 	color: #FAAC58;
 }
 .tablepanel{
@@ -290,6 +287,7 @@ td:nth-child(3) {
 }
 .fillform{
 	margin: 120px;
+	margin-bottom: 70px;
 	padding: 40px 90px;
 	font: 22px Arial, Helvetica, sans-serif;
 }
@@ -304,10 +302,18 @@ td:nth-child(3) {
 }
 .fillform a:nth-child(1){
 	color: red;
+	text-decoration: underline;
+}
+.fillform li:nth-child(2){
+	padding-left: 78%;
 }
 .fillform input[type="button"]{
-	background: green;
+	background: #0489B1;
 	color: white;
+	height: 50px;
+	width: 100px;
+	border: 1px solid #0489B1;
+	border-radius: 12px;
 }
 
 
