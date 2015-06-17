@@ -314,6 +314,7 @@ td:nth-child(3) {
 	width: 100px;
 	border: 1px solid #0489B1;
 	border-radius: 12px;
+	cursor: auto;
 }
 .confirmation, .ask{
 	margin: 120px;
@@ -333,13 +334,21 @@ td:nth-child(3) {
 }
 .ask li:nth-child(2), .ask li:nth-child(3){
 	display: inline-block;
-	padding: 12px 12px;
+	padding: 30px 50px;
 	position: relative;
 }
-/*.ask li:nth-child(3){
-	float: left;
-	padding: 12px;
-}*/
+.ask input[type="button"]{
+	background: #FE2E2E;
+	color: white;
+	height: 50px;
+	width: 100px;
+	border: 0px solid;
+	border-radius: 12px;
+	cursor: auto;
+}
+.ask li:nth-child(3) input{
+	background-color: #01DF74;
+}
 
 
 

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-	<title>Chamberos.net Clients Adminstration</title>
 	<meta charset = "UTF-8">
+	<title>Chamberos.net - Edit Client</title>
 	<link rel="stylesheet" type="text/css" href="C:\Users\Usuario\Documents\GitHub\UTN2015_Diseno_Web\First Proyect_Chamberos.net_WebCase\css\template.css">
 </head>
 <body>
@@ -39,7 +39,7 @@
 		</div>
 		<div class = "subpanel1">
 			<article>
-				<h3 class = "lead">Delete this Client?</h3>
+				<h3 class = "lead">Edit Client</h3>
 			</article>
 		</div>
 		<div class = "subpanel2">
@@ -47,26 +47,33 @@
 				<a href="">New Client</a>
 			</article>
 		</div>
-	</section>	
+	</section>
 	<section class = "frame">
-		<article class = "ask">
-			<ul>
-				<li><label>Are you sure you want to delete this client?</label></li>
-				<li>
-					<a href="C:\Users\Usuario\Documents\GitHub\UTN2015_Diseno_Web\First Proyect_Chamberos.net_WebCase\clients\clients.html">
-						<input type = "button" value = "NO">
-					</a>
-				</li>
-				<li>
-					<a href="C:\Users\Usuario\Documents\GitHub\UTN2015_Diseno_Web\First Proyect_Chamberos.net_WebCase\clients\deletedclient.html">
-						<input type = "button" value = "YES">
-					</a>					
-				</li>	
-			</ul>
+		<article class = "fillform">
+			<form><!-- Formulario --> 
+				<legend>Name</legend>
+				<input type = "text">
+				<legend>Last Name</legend>
+				<input type = "text">
+				<legend>Phone Number</legend>
+				<input type = "tel" name="tel">
+				<legend>ID</legend>
+				<input type = "text">
+				<div><!-- Confirmación -->
+					<ul>
+						<li><a href="C:\Users\Usuario\Documents\GitHub\UTN2015_Diseno_Web\First Proyect_Chamberos.net_WebCase\clients\clients.html">Cancel</a></li>
+						<li>
+							<a href="C:\Users\Usuario\Documents\GitHub\UTN2015_Diseno_Web\First Proyect_Chamberos.net_WebCase\clients\savedclient.html">
+								<input type="button" value="Save" />
+							</a>
+						</li>
+					</ul>
+				</div>
+			</form>
 		</article>
 	</section>
 	<footer class = "foot">
 		<center><span>2015 | Developed by Pablo Arce.</span></center>
-	</footer>	
+	</footer>
 </body>
 </html>
