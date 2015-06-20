@@ -257,7 +257,7 @@ body{ /*Sobre escribe el color del background de las tags body*/
 }
 .tablepanel table{
 	width: 100%;
-	font-family: 'Arial';
+	font-family: arial;
 	font-size: 22px;
 	border-collapse:collapse;
 	height: 12px;
@@ -344,6 +344,7 @@ td:nth-child(3) {
 	width: 100px;
 	border: 0px solid;
 	border-radius: 12px;
+	cursor: auto;
 	cursor: auto;
 }
 .ask li:nth-child(3) input{
