@@ -275,15 +275,15 @@ body{ /*Sobre escribe el color del background de las tags body*/
 	background-color: white; 
 }
 td:nth-child(1) {
-	width:50%; 
+	width:40%; 
 	text-align: center;
 }
 td:nth-child(2) {
-	width:30%; 
+	width:20%; 
 	text-align: left;
 }
 td:nth-child(3) {
-	width:20%; 
+	width:30%; 
 }
 .fillform{
 	margin: 120px;
@@ -351,7 +351,9 @@ td:nth-child(3) {
 	background-color: #01DF74;
 }
 
-
+datalist { 
+    display: none;
+}
 
 
 
