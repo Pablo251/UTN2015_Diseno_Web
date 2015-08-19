@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es"><!--Se crea la estructura html y el 'lang="es"' define el idioma en el ducumento-->
+<head><!--Aquí podemos poner el uso de caracteres a emplear, título a mostrar en la pestaña del navegador, descripción de la página, etc-->
+	<meta charset="UTF-8"><!--Asigna el grupo de carateres-->
+	<meta name = "description" content = "Diseño Web: Tarea 1"><!--Añade una descripción bajo el título principal-->
+	<title>Diseño Web - Tarea #1</title><!--Asigna el título a la pestaña del navegador-->
+</head>
+<body><!--El cuerpo del documento-->
+	<header lang ="en-US" contenteditable="true"><!--Tag Nueva #1: Cabecera de la página. Contiene el título, logo entre otros-->
+		<h1>Homework 1</h1>
+	</header>
+	<nav> <!--Tag Nueva #2: Define los links de navegación-->
+		<ul> <!--Inicia una lista-->				
+			<!--Elementos en la lista-->
+			<li>Inicio</li>
+			<li><a href="https://www.youtube.com/watch?v=2xV93TlPv1M">Tool Song</a></li>
+			<li><a href="https://www.youtube.com/watch?v=TefH4QuCVqA">Opeth Cover</a></li>
+			<li>Galería</li>
+		</ul>
+	</nav>
+	<section><!--Tag Nueva #3: Define una parte o sección dentro del documento html-->
+		<h3>Contenido del Section #1</h3>
+		<p>Para crear un documento con formato HTML5 se debe de  escribir <mark>!DOCTYPE html</mark> al inicio, miestras que para HTML4.01 se emplea <mark>!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/DTD/strict.dtd"</mark>.</p><!--Tag Nueva #4: Resalta una región o palabra de un texto-->
+		<p>Video incrustado utilizando la etiqueta VIDEO</p>
+		<video width="400" height="200" controls><!--Tag Nueva #5: Agrega un video-->
+			<source src="http://v2v.cc/~j/theora_testsuite/320x240.ogg"><!--Tag Nueva #6: Implementa un recurso-->
+			</video>
+		<p lang = "fr">Je ne <strong>parle</strong> francais.</p><!--*Aquí podemos asignar el lenguaje a un solo párrafo-->
+
+	</section>	
+	<section> <!--Segundo section.-->
+		<fieldset title = "Fieldset">
+			<figure>
+				<img src="http://the-aristocrats-band.com/media/2012/11/cover.jpg" width = "400" height = "400" alt = "The aristocrats 2012" title = "Ola K aze">
+				<figcaption>The Aristocrats</figcaption>
+			</figure>								
+		</fieldset>	
+		<form>
+		</form>
+	</section>
+		<aside><!--Tag Nueva #7: Define un contenido, relacionado con los alrededores de la página; un ejemplo puede ser la publicidad o un socialmedia panel-->
+			<h4>Contenido del aside</h4>
+			<p>Publicidad, contactos, etc</p>
+			<img src="http://cdn.socialmediaexaminer.com/wp-content/uploads/2013/07/dh-social-media-buttons-istock-image-25015338.jpg">
+		</aside>
+		<section>
+			<h3>Contenido del Section #2</h3> <!--Se pueden tener más de un section-->
+			<p>Un audio incrustado utilizando la etiqueta Audio</p>
+			<audio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" controls> <!--Tag Nueva #8: Permite añadir un elemento de audio al documento html. Se le puede añadir controles, un auto play. precargarlo o no mostrarlo y dejarlo sonar, etc-->
+				Su navegador no soporta la etiqueta AUDIO
+			</audio>	
+			<p>Implementando un contenido externo con una etiqueta EMBED</p>		
+			<embed src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/6018820&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"><!--Tag Nueva #9: Se comporta como un contenedor de una aplicación externa o un plugin-->			
+		</section>			
+		<footer class = "footer"><!--Tag Nueva #10: Pie de página. Aquí puede encontrarse información sobre el copyright, contacto, información adicional, enlaces , etc-->
+			<p>Este es el pie dela página o FOOTER.</p>
+		</footer>					
+	</body> 
+	</html>

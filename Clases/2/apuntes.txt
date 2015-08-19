@@ -1,0 +1,18 @@
+Clase 2:
+
+Firewall: Regula los paquetes de entrada y de salida... puede configurarse para delimitar reglas
+
+Browser tiene un sandbox que me limita al OS
+
+.exe oper con el OS y lo que me permite hacer
+
+DNS es la ruta de direcciones IP globales
+
+NS Name Server, aquí se realiza el cambio de la ip de mi página. Luego se propaga por todos los DNS globales
+
+Puertos con los que escuchan un server... 80 escucha todo lo que venga... el 443 es un canal sifrado deseguridad, hay que pagar, es el candadito verde de arriba
+
+Código 200: encontró la página con toda la pata
+Código 404: No encontró la madre
+
+Se puede utilizar los dos tipos, tanto estático y dinámic

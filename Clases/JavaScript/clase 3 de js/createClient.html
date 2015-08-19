@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Testing Form 1</title>
+	<!-- External CSS -->
+	<link rel="stylesheet" href="css/template.css" >
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+	<h1>Login Form</h1>
+	<div class="form-contact-info">
+		<div class="error_msg" id="error_msg"></div>
+		<form action="formulario.php" method="post">
+			<input type="text" name="firstName" value="" placeholder="Type your firstName" class="required"  id="firstName" /> 
+			<span class="required">*</span>
+			<input type="input" name="lastName" id="lastName" />
+			<input type="button" value="Save Client" onclick="MYAPP.saveClient();" />
+		</form>
+	</div>
+	<script src="js/application.js" type="text/javascript"></script>
+	<script src="js/jquery.js" type="text/javascript"></script>
+</body>
+</html>
+

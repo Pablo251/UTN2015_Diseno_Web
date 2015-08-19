@@ -1,0 +1,7 @@
+crowlers son los bots que siguen links... 
+
+Elektron - Atom 
+
+ie, id, class, stile and little los puedo utilizar en cualquier lado que me va a funcionar
+
+strong vs b... es la misma vara, solo que ahora html5 coje strong con más relevancia haciendolo párte semantica

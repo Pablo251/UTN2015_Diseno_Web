@@ -1,0 +1,20 @@
+Clase 5: como tal... web con bladi :3..llico 
+
+Hojs fr estilo en cascada... Control sobre el stilo y el html
+el html no debe de darme el estilo... me da indicios pero el estilo lo da css
+
+Cascada: AL dar un sitilo al padre los hijos heredan la madre... y todos los putos sucesores
+
+- Mi html representa el contenido... mi estilo puede variar... navegador, movil, smarthphone
+... esto para solo modificar el css
+
+con css puedo modificar la posicion de mis elementos
+
+4 way to do it
+
+	in line - directo al doc
+	external - es una hoja por aparte
+	javascript - en caliente... actua en el momento
+
+Siempre gana el que está más cerca
+	

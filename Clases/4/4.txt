@@ -1,0 +1,10 @@
+
+En caso de que me fallé el relativo.. como en el ejemplo.. se pone <a href = "/test.html"... se le agrega un "/"
+
+Un absoluto siempre irá a donde le indiqué... No varía
+Relativo depende la ruta en donde esté situado en el momento.
+Absoluto-Relativo se le agrega la raíz y se le indica la ruta de acceso dentro de mi servidor
+
+Toda ruta virtual tiene una física... solo el developer lo puede ver
+
+Se puede agragar estilos de css con las tags <style>  y <Link>
